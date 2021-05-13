@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Images</title>
+    <script src="/uploadImages.js" defer></script>
+    <script src="/sendImages.js" defer></script>
+
+</head>
+
+<body>
+
+    <div id="mainHolder">
+       
+
+        <div id="contentHolder">
+           
+            <!-- we don't display this for secret reasons shhhh. It only accepts image types.-->
+            <input type="file" id="imgupload" accept="image/*" style="display:none" />
+            <button type="button" id="uploadButton" style="width:50%;height:50px;">Upload An Image</button>
+            <button type="button" id="sendButton"style="width:50%;height:50px;">Done</button>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
