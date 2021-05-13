@@ -55,9 +55,7 @@ async function sendImages(){
             reader.readAsDataURL(blob); //when this loads it calls the event listener for LOAD, which is above.
         }
     }
-
-    
-    
+ 
 }
 
 
